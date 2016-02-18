@@ -30,6 +30,6 @@ if __name__ == '__main__':
         with open('password.txt', 'r') as p:
             for emailUser in f.readlines():
                 for emailPass in p.readlines():
-                    fuckMail = ClmbFuckCoreMail('mail.dce.com.cn', emailUser.strip(), emailPass.strip())
+                    fuckMail = ClmbFuckCoreMail('mail.xxx.com.cn', emailUser.strip(), emailPass.strip())
                     fuckMail.run()
                 p.seek(0)
